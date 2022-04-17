@@ -1,0 +1,50 @@
+const data = {
+  products: [
+    {
+      id: 1,
+      img: "/images/asus.jpg",
+      title: "Asus ",
+      desc: 'Ecran 11.6" HD - Processeur Intel Celeron N4020, Up To 2.8 GHz, 4 Mo De Mémoire Dédiée - Mémoire 4 Go - Disque 128 Go SSD - Carte Graphique Intel UHD Graphics 600 - Wifi - Bluetooth - Webcam HD Avec Micro - HDMI - 2x USB 3.2 - Lecteur Carte SD - Couleur Gris - Garantie 1 An ',
+      price: "750.000",
+      category: "Laptop",
+      rating: 4.5,
+      numReviews: 10,
+      countInStock: 5,
+    },
+    {
+      id: 2,
+      img: "/images/asus-2.jpg",
+      title: "Asus",
+      desc: 'Ecran 15.6" LED HD - Processeur Intel Celeron Dual Core N4020, Up To 2.8 GHz, 4 Mo De Mémoire Cache - Mémoire 4 Go - Disque 1 To - Carte Graphique Intel UHD Graphics 600 - Wifi - Bluetooth - 2x USB 3.1 Gen 1 - 1x HDMI - Lecteur De Cartes - Webcam HD - Garantie 1 An ',
+      price: "800.000",
+      category: "Laptop",
+      rating: 4.2,
+      numReviews: 8,
+      countInStock: 3,
+    },
+    {
+      id: 3,
+      img: "/images/hp.jpg",
+      title: "hp",
+      desc: 'Ecran 15.6" HD - Processeur Intel Celeron Dual Core N4020, 2.8 Ghz, 4 Mo De Mémoire Cache - Mémoire 4 Go - Disque 1 To - Carte Graphique Intel UHD Graphics 600 - Wifi - Bluetooth 5.0 - Webcam HD Avec Micro - HDMI - Lecteur De Cartes - USB 3.2 - USB 2.0 - Couleur Noir - Garantie 1 An + Antivirus Bitdefender Internet Security Offert (191117)',
+      price: "799.000",
+      category: "Laptop",
+      rating: 4.5,
+      numReviews: 10,
+      countInStock: 6,
+    },
+    {
+      id: 4,
+      img: "/images/msi.jpg",
+      title: "msi",
+      desc: 'Ecran 11.6" HD LED - Processeur Intel Celeron N4020, Up To 2.8 GHz, 4 Mo De Mémoire Cache - Mémoire 4 Go - Disque 128 Go SSD - Carte Graphique Intel UHD Graphics - Wifi - Bluetooth - Webcam - 1x Type-A USB 3.1 - 1x Type-C USB 3.1 - 1x USB 2.0 - Lecteur De Cartes - Clavier Chiclet - Windows 10 - Couleur Noir - Garantie 1 An + Antivirus Bitdefender Internet Security Offert (191117)',
+      price: "890.000",
+      category: "Laptop",
+      rating: 4.8,
+      numReviews: 10,
+      countInStock: 2,
+    },
+  ],
+};
+
+export default data;
