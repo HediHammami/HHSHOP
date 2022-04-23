@@ -34,6 +34,9 @@ const PhonesScreen = () => {
     error: "",
   });
 
+  const [filtered, setFiltered] = useState([]);
+  const [activeBrand, setActiveBrand] = useState([]);
+  
   useEffect(() => {
     const fetchData = async () => {
       dispatch({ type: "FETCH_REQUEST" });
@@ -52,6 +55,13 @@ const PhonesScreen = () => {
       <Helmet>
         <title>Search Products</title>
       </Helmet>
+    
+    <Filter
+        products={products}
+        setFiltered={setFiltered}
+        activeBrand={activeBrand}
+        setActiveBrand={setActiveBrand}
+      />
 
       {loading ? (
         <LoadingBox></LoadingBox>
